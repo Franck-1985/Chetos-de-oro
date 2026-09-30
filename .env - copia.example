@@ -1,3 +1,5 @@
 # Copia este archivo como .env y cambia los valores
 PORT=3000
 JWT_SECRET=cambia-esto-por-una-cadena-larga-y-aleatoria
+npm install
+cp .env.example .env     # en Windows: copy .env.example .env
