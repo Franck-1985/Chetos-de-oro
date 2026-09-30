@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.log
+# Base de datos local (contiene usuarios y votos reales): NO se sube a GitHub.
+# Se crea sola al ejecutar `npm start`.
+database/*.sqlite
+database/*.sqlite-shm
+database/*.sqlite-wal
+.DS_Store
